@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+
+# VitePress 构建产物
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# 工具与临时目录
+.playwright-mcp/
+.superpowers/
+/.vitepress/
+.claude/
+
+# 内部规划文档（不发布）
+docs/superpowers/
+
+# 个人笔记与快照
+CLAUDE*.md
+current-state.png
+homepage-snapshot.txt
+*.png
+
+# 用 npm 管理依赖
+pnpm-lock.yaml
+
+# 本地环境配置
+.npmrc
+参考/
