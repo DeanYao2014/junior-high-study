@@ -1,4 +1,4 @@
-import { defineConfig, withBase } from 'vitepress'
+import { defineConfig } from 'vitepress'
 import { set_sidebar } from './utils/auto_sidebar.js'
 import mathjax3 from 'markdown-it-mathjax3'
 
@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/junior-high-study/',
 
   head: [
-    ['link', { rel: 'icon', href: withBase('/favicon.svg') }],
+    ['link', { rel: 'icon', href: '/junior-high-study/favicon.svg' }],
   ],
 
   themeConfig: {
